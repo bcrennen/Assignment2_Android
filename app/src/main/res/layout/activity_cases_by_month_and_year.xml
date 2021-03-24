@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CasesByMonthAndYearActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9883F3"
+        android:gravity="center"
+        android:text="@string/cases_by_month_and_year"
+        android:textSize="35dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/year"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/year"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/month"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/month"
+            android:inputType="number"/>
+
+        <Button
+            android:id="@+id/findBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:onClick="onFind"
+            android:text="@string/findBtn" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/results"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

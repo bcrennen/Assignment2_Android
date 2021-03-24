@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CasesByHealthAuthorityActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#9883F3"
+        android:gravity="center"
+        android:text="@string/cases_by_health_authority"
+        android:textSize="32dp"/>
+
+    <TextView
+        android:id="@+id/fraser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:text="@string/fraser"/>
+
+    <TextView
+        android:id="@+id/interior"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:text="@string/interior"/>
+
+    <TextView
+        android:id="@+id/northern"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:text="@string/northern"/>
+
+    <TextView
+        android:id="@+id/outOfCanada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:text="@string/out_of_canada"/>
+
+    <TextView
+        android:id="@+id/coastal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:text="@string/coastal"/>
+
+    <TextView
+        android:id="@+id/island"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="25dp"
+        android:text="@string/island"/>
+
+</LinearLayout>

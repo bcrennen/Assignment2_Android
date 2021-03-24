@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Chiu_Nguyen</string>
+
+    // Register Page
+    <string name="Title">Welcome to Covid Cases Database</string>
+    <string name="RegisterTitle">Register a new account or Login</string>
+    <string name="RegisterEmail">Email</string>
+    <string name="RegisterPassword">Password</string>
+    <string name="RegisterButton">Register</string>
+    <string name="RegisterLoginButton">Login</string>
+    <string name="StudentsInfo">Created by: Brennen Chiu and Xavier Nguyen from Set 3D</string>
+
+    // Main Page
+    <string name="MainLogoutButton">Logout</string>
+    <string name="StudentBrennen">Brennen Chiu (A01201598)</string>
+    <string name="StudentXavier">Xavier Nguyen (A01173857)</string>
+    <string name="MainScreenTitle">Covid Cases in BC, Canada</string>
+    <string name="GroupMonth">Cases by Month &amp; Year</string>
+    <string name="GroupHealthAuthority">Cases by Health Authority</string>
+    <string name="GroupGender">Cases by Gender</string>
+    <string name="GroupAge">Cases by Age Group</string>
+
+    // Gender Screen
+    <string name="cases_by_gender">Cases by Gender</string>
+    <string name="MaleGroup">Male:  </string>
+    <string name="FemaleGroup">Female:  </string>
+    <string name="UnknownGroup">Unknown:    </string>
+
+    // Age Screen
+    <string name="cases_by_age">Cases by Age</string>
+    <string name="lessThan10Group">&lt; 10:  </string>
+    <string name="TenTo19Group">10-19:  </string>
+    <string name="TwentyTo29Group">20-29:   </string>
+    <string name="ThirtyTo39Group">30-39:   </string>
+    <string name="FortyTo49Group">40-49:    </string>
+    <string name="FiftyTo59Group">50-59:    </string>
+    <string name="SixtyTo69Group">60-60:    </string>
+    <string name="SeventyTo79Group">70-79:  </string>
+    <string name="EightyTo89Group">80-89:   </string>
+    <string name="NinetyPlusGroup">90+: </string>
+
+    <string name="cases_by_month_and_year">Cases by Month &amp; Year</string>
+    <string name="cases_by_health_authority">Cases by Health Authority</string>
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="findBtn">Find</string>
+    <string name="fraser">Fraser:   </string>
+    <string name="interior">Interior:   </string>
+    <string name="northern">Northern:   </string>
+    <string name="out_of_canada">Out of Canada:  </string>
+    <string name="coastal">Vancouver Coastal:  </string>
+    <string name="island">Vancouver Island:  </string>
+    <string name="title_activity_cases_by_month_and_year">CasesByMonthAndYearActivity</string>
+
+
+</resources>

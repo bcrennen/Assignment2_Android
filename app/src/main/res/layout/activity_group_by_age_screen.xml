@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GroupByAgeScreen">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#9883F3"
+            android:gravity="center"
+            android:text="@string/cases_by_age"
+            android:textSize="35dp"/>
+
+        <TextView
+            android:id="@+id/lessThan10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="36dp"
+            android:textSize="25dp"
+            android:text="@string/lessThan10Group" />
+
+        <TextView
+            android:id="@+id/TenTo19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/TenTo19Group" />
+
+        <TextView
+            android:id="@+id/TwentyTo29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/TwentyTo29Group" />
+
+        <TextView
+            android:id="@+id/ThirtyTo39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/ThirtyTo39Group" />
+
+        <TextView
+            android:id="@+id/FortyTo49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/FortyTo49Group" />
+
+        <TextView
+            android:id="@+id/FiftyTo59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/FiftyTo59Group" />
+
+        <TextView
+            android:id="@+id/SixtyTo69"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/SixtyTo69Group" />
+
+        <TextView
+            android:id="@+id/SeventyTo79"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/SeventyTo79Group" />
+
+        <TextView
+            android:id="@+id/EightyTo89"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="25dp"
+            android:text="@string/EightyTo89Group" />
+
+        <TextView
+            android:id="@+id/NinetyPlus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:textSize="25dp"
+            android:text="@string/NinetyPlusGroup" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>
